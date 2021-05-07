@@ -1,14 +1,5 @@
 <template>
-  <h1>哈哈哈</h1>
+  <div>
+    1
+  </div>
 </template>
-
-<script>
-export default {
-  name: 'Frank',
-  data() {
-    return {
-      count: 0
-    }
-  }
-}
-</script>
