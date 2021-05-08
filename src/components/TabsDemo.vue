@@ -1,0 +1,112 @@
+<template>
+  Tabs的文档
+  <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+    <p>Tabs 的文档</p>
+</template>
+
+<script lang="ts">
+import TopNav from './TopNav.vue'
+export default {
+  components: {
+    TopNav  
+  }
+}
+</script>
