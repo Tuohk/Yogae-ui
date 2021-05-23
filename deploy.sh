@@ -6,5 +6,5 @@ git add .
 git commit -m "update"
 git branch -M main
 git remote add origin git@github.com:Tuohk/Yogae-ui.git
-git push -f -u origin main
+git push -u origin main
 cd -
