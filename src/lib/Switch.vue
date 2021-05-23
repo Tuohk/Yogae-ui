@@ -18,7 +18,7 @@ export default {
 
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
   $h: 22px;
   $h2: $h - 4px;
   button{
@@ -28,7 +28,7 @@ export default {
     background: grey;
     border-radius: $h/2;
     position: relative;
-    
+  
   }
   button.checked {
     background: blue;

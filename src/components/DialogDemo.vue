@@ -1,112 +1,28 @@
 <template>
-  Dialog的文档
-  <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
-    <p>Dialog 的文档</p>
+<div>Dialog 示例</div>
+<h1>示例1</h1>
+<Button @click="toggle" >toggle</Button>
+<Dialog :visible = 'x' @update:visible= "x = $event" ></Dialog>
 </template>
 
 <script lang="ts">
-import TopNav from './TopNav.vue'
+import { ref } from 'vue'
+import Button from '../lib/Button.vue'
+import Dialog from '../lib/Dialog.vue'
 export default {
   components: {
-    TopNav  
+    Dialog,
+    Button
+  },
+  setup(){
+    const x = ref(false)
+    const toggle = () => {
+      x.value = !x.value
+    }
+    return {x ,toggle}
   }
 }
 </script>
+<style lang="scss" scoped>
+
+</style>
