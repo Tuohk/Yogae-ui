@@ -1,6 +1,5 @@
 <template >
  <template v-if = "visible">
-  <div>
 <div class="gulu-dialog-overlay"></div>
 <div class="gulu-dialog-wrapper">
   <div class="gulu-dialog">

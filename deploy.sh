@@ -3,8 +3,8 @@ yarn build
 cd dist
 git init
 git add .
-git commit -m "update"
-git branch -M main
-git remote add origin git@github.com:Tuohk/Yogae-ui.git
-git push -u origin main
+git commit -m "new pro"
+git branch -M main1
+git remote add origin git@github.com:Tuohk/new-ui.git
+git push -u origin main1
 cd -
