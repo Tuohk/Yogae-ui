@@ -4,7 +4,7 @@ cd dist
 git init
 git add .
 git commit -m "new pro"
-git branch -M main1
+git branch -M master
 git remote add origin git@github.com:Tuohk/new-ui.git
-git push -u origin main1
+git push -f -u origin master
 cd -

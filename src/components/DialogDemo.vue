@@ -1,6 +1,6 @@
 <template>
 <div>Dialog 示例</div>
-<h1>示例1</h1>
+<h2>示例1</h2>
 <Button @click="toggle" >toggle</Button>
 <Dialog :visible = 'x' @update:visible= "x = $event" ></Dialog>
 </template>

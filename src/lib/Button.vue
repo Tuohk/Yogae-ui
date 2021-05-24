@@ -1,22 +1,40 @@
 <template>
-<div>
 <button
    class="yogae-button"
-  :class="{[`yogae-${theme}`]: theme}"
+  :class="classes"
+  :disabled="disabled"
 >
     <slot />
   </button>
-  </div>
 </template>
 
 <script>
+import { computed } from "vue"
 export default {
   props:{
     theme : {
       type: String,
       default: 'button'
-    }
-  }
+    },
+    level: {
+      type: String,
+      default: "normal",
+    },
+    disabled: {
+      type: Boolean,
+      default: false,
+    },
+  },
+  setup(props) {
+    const { theme, level } = props;
+    const classes = computed(() => {
+      return {
+        [`yogae-theme-${theme}`]: theme,
+        [`yogae-level-${level}`]: level,
+      };
+    });
+    return { classes };
+  },
   
 }
 </script>

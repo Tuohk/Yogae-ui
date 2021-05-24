@@ -10,6 +10,7 @@
       <p>第二行字</p>
     </main>
     <footer>
+      
       <Button level="main">OK</Button>
       <Button>Cancel</Button>
     </footer>

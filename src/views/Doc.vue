@@ -71,7 +71,7 @@ export default {
     padding-top: 20vmin;
     padding-left: 30vmin;
     > .asideContent {
-      z-index: 20;
+      z-index: 10;
     }
     @media (max-width: 500px) {
       padding-left: 0%;

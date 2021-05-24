@@ -24,7 +24,6 @@ export default {
     console.log(asideVisibile.value);
     const toggleVisible = () => {
       asideVisibile.value = !asideVisibile.value;
-      console.log(asideVisibile.value);
     };
     return { toggleVisible };
   }
@@ -90,4 +89,5 @@ export default {
     }
   }
 }
+
 </style>
